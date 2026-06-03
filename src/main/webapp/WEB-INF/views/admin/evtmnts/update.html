@@ -74,6 +74,7 @@
                     <span class="errors" id="_urlId_error_id" th:errors="*{urlId}" th:if="${#fields.hasErrors('urlId')}">
                     </span>
                 </div>
+                <div th:replace="~{admin/evtmnts/paiementMultiple.html}"></div>
                 <fieldset>
                     <legend>
                       <span th:text="#{form_title}">
